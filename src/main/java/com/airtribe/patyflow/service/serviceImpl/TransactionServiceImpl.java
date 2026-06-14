@@ -22,7 +22,10 @@ public class TransactionServiceImpl implements TransactionService {
 
     }
 
-
+    @Override
+    public Transaction getTransactionById(Long id) {
+        return null;
+    }
 
     @Override
     public List<Transaction> getAllTransactions() {
