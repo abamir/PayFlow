@@ -10,7 +10,6 @@ public interface TransactionService {
 
     public Transaction sendMoney(Transaction transaction);
 
-    public Transaction getTransactionById(Long id);
 
     public List<Transaction> getAllTransactions();
 }
